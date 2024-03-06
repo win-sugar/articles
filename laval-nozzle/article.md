@@ -2,9 +2,9 @@
 
 # 1. 概要
 
-圧縮性流体を加速するためにラバルノズルという装置が使われる。ここでは、①理論解の導出、②fluentを使った解析結果、について紹介する。なお参考にした解析モデルは、fluentの検証計算例で使用されているものである。
+圧縮性流体を加速するためにラバルノズルという装置が使われる。ここでは、①理論解の導出、②OpenFOAMを使った解析結果、について紹介する。なお参考にした解析モデルは、NASAの検証計算例で使用されているものである。
 
-[fluentの検証例題(縮小拡大ノズル内の通常衝撃波を伴う超音速流)](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v232/ja/fbu_vm/Hlp_VMFL046.html)
+[ラバルノズルの検証例題](https://www.grc.nasa.gov/WWW/wind/valid/cdv/cdv.html)
 
 
 
@@ -40,36 +40,29 @@ outletでの圧力をさらに下げると最終的にはthroatから下流側�
 
 ![モデル](./isentropic-tube.png)
 
-
 $$
 \begin{align}
-
 \frac{p_1}{p_2}&=\left[
 \frac{1+\frac{\gamma-1}{2}M_1^2}
 {1+\frac{\gamma-1}{2}M_2^2}
-\right]^{\frac{-\gamma}{\gamma-1}}  \tag{1}\\
-
+\right]^{\frac{-\gamma}{\gamma-1}} \tag{1} \\
 \frac{T_1}{T_2}&=\left[
 \frac{1+\frac{\gamma-1}{2}M_1^2}
 {1+\frac{\gamma-1}{2}M_2^2}
-\right]^{-1}   \tag{2}\\
-
+\right]^{-1}   \tag{2}  \\
 \frac{\rho_1}{\rho_2}&=\left[
 \frac{1+\frac{\gamma-1}{2}M_1^2}
 {1+\frac{\gamma-1}{2}M_2^2}
 \right]^{\frac{-1}{\gamma-1}}   \tag{3}\\
-
 \frac{u_1}{u_2}&=\frac{M_1}{M_2}\left[
 \frac{1+\frac{\gamma-1}{2}M_1^2}
 {1+\frac{\gamma-1}{2}M_2^2}
 \right]^{\frac{1}{2}}   \tag{4}\\
-
-
 \frac{A_1}{A_2}&=\frac{M_2}{M_1}\left[
 \frac{1+\frac{\gamma-1}{2}M_1^2}
 {1+\frac{\gamma-1}{2}M_2^2}
 \right]^{\frac{(\gamma+1)}{2(\gamma-1)}}   \tag{5}
-
 \end{align}
 $$
+
 
