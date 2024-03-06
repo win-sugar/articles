@@ -2,9 +2,9 @@
 
 # 1. 概要
 
-圧縮性流体を加速するためにラバルノズルという装置が使われる。ここでは、①理論解の導出、②fluentを使った解析結果、について紹介する。なお参考にした解析モデルは、fluentの検証計算例で使用されているものである。
+圧縮性流体を加速するためにラバルノズルという装置が使われる。ここでは、①理論解の導出、②OpenFOAMを使った解析結果、について紹介する。なお参考にした解析モデルは、https://www.grc.nasa.gov/WWW/wind/valid/cdv/cdv.html の検証計算例で使用されているものである。
 
-[fluentの検証例題(縮小拡大ノズル内の通常衝撃波を伴う超音速流)](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v232/ja/fbu_vm/Hlp_VMFL046.html)
+[ラバルノズルの検証例題](https://www.grc.nasa.gov/WWW/wind/valid/cdv/cdv.html)
 
 
 
