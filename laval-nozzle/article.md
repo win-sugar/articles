@@ -40,36 +40,29 @@ outletでの圧力をさらに下げると最終的にはthroatから下流側�
 
 ![モデル](./isentropic-tube.png)
 
-
 $$
 \begin{align}
-
 \frac{p_1}{p_2}&=\left[
 \frac{1+\frac{\gamma-1}{2}M_1^2}
 {1+\frac{\gamma-1}{2}M_2^2}
-\right]^{\frac{-\gamma}{\gamma-1}}  \tag{1}\\
-
+\right]^{\frac{-\gamma}{\gamma-1}} \tag{1} \\
 \frac{T_1}{T_2}&=\left[
 \frac{1+\frac{\gamma-1}{2}M_1^2}
 {1+\frac{\gamma-1}{2}M_2^2}
-\right]^{-1}   \tag{2}\\
-
+\right]^{-1}   \tag{2}  \\
 \frac{\rho_1}{\rho_2}&=\left[
 \frac{1+\frac{\gamma-1}{2}M_1^2}
 {1+\frac{\gamma-1}{2}M_2^2}
 \right]^{\frac{-1}{\gamma-1}}   \tag{3}\\
-
 \frac{u_1}{u_2}&=\frac{M_1}{M_2}\left[
 \frac{1+\frac{\gamma-1}{2}M_1^2}
 {1+\frac{\gamma-1}{2}M_2^2}
 \right]^{\frac{1}{2}}   \tag{4}\\
-
-
 \frac{A_1}{A_2}&=\frac{M_2}{M_1}\left[
 \frac{1+\frac{\gamma-1}{2}M_1^2}
 {1+\frac{\gamma-1}{2}M_2^2}
 \right]^{\frac{(\gamma+1)}{2(\gamma-1)}}   \tag{5}
-
 \end{align}
 $$
+
 
