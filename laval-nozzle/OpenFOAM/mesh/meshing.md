@@ -19,7 +19,7 @@ OpenFOAMの軸対称モデルを使って計算を行う。ここでは blockMes
 
 最終的なメッシュは以下のようになる。
 
-[メッシュ分割図](./mesh-side.png)
+![メッシュ分割図](./mesh-side.png)
 
 # blockMeshDictの作成
 
@@ -197,7 +197,7 @@ mergePatchPairs
 
 pointの配置は以下のようになっている。軸対称モデルなので全体は楔形形状である。
 
-[point配置図](./logical.png)
+![point配置図](./logical.png)
 
 ノズルの壁面形状は codeStream で記述している。blockMeshDict内で定義された
 パラメータをソースプログラム内で参照することができる（ここでは ndivを使用）。
@@ -208,7 +208,7 @@ pointの配置は以下のようになっている。軸対称モデルなので
 ケースディレクトリ内で blockMeshとタイプすることでメッシュが作成される。
 作成されたメッシュは前記の図の通りである。流入境界付近の拡大図を以下に示す。
 
-[inlet付近の拡大メッシュ](./mesh-inlet.png)
+![inlet付近の拡大メッシュ](./mesh-inlet.png)
 
 
 
